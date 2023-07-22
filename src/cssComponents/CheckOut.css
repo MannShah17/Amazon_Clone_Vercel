@@ -1,0 +1,9 @@
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.cart-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
