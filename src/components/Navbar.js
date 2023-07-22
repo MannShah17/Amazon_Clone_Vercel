@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../cssComponents/Navbar.css'; // Import the CSS file
+import '../cssComponents/Navbar.css';
 
 const Navbar = ({ cartItems }) => {
   const getTotalCartItems = () => {

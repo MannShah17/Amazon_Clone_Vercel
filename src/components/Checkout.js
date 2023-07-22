@@ -41,7 +41,6 @@ const Checkout = ({ cartItems, setCartItems }) => {
         <p>Your cart is empty.</p>
       ) : (
         <div>
-          {/* ... (existing cart items rendering) */}
           <p>Order Total: ${getOrderTotal()}</p>
           {getDiscount() > 0 && <p>Discount: ${getDiscount()}</p>}
           <p>Grand Total: ${getGrandTotal()}</p>
