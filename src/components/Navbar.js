@@ -26,10 +26,11 @@ const Navbar = ({ cartItems }) => {
         </Link>
         <Link to='/category/jewelery'>Jewellery</Link>
         <Link to='/category/electronics'>Electronics</Link>
-        <Link to='/cart'>
-          <div className='navbar__cart'>
-            <span className='navbar__cart-count'>{getTotalCartItems()}</span>
-          </div>
+        <Link to='/cart' className='navbar__cart'>
+          <span className='navbar__cart-icon'>
+            <i className='fas fa-shopping-cart'></i>
+          </span>
+          <span className='navbar__cart-count'>{getTotalCartItems()}</span>
         </Link>
       </div>
     </nav>
